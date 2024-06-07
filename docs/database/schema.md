@@ -2,6 +2,7 @@
 layout: default
 title: Document schema
 parent: Database
+permalink: /docs/database/schema
 ---
 
 # The Remède document schema
