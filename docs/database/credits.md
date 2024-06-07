@@ -2,6 +2,7 @@
 layout: default
 title: Credits
 parent: Database
+nav_order: 10
 ---
 
 # Credits
