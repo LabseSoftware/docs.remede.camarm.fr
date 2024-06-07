@@ -28,3 +28,7 @@ ionic capacitor build android
 
 This command builds the Vue project using `vite` and move the generated resources to the android project, so they can be served
 through a WebView in the native application.
+
+---
+
+See [Capacitor](https://capacitorjs.com/docs/android) for more information.
