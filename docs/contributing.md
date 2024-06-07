@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Contributing
-nav_order: 11
+nav_order: 12
 permalink: /docs/contributing
 ---
 
@@ -38,6 +38,12 @@ Remède fetches words from the Wictionary but sometimes, words are not in our li
    1. Run `python3 scripts/pre_generate_ressources.py`, if it outputs an error, check the previous steps...
 
 Check also [Building database - About - Quickly add a word](https://docs.remede.camarm.fr/docs/database/build/about#quickly-add-a-word)
+
+## Add cheatsheets
+
+Remède needs contributors who can add cheatsheets !
+
+You can find a documentation about writting cheatsheets [here](https://docs.remede.camarm.fr/docs/cheatsheets)
 
 ## More
 

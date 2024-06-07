@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Lifecycle and schemas
-nav_order: 10
+nav_order: 11
 permalink: /docs/structure
 ---
 
