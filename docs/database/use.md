@@ -19,4 +19,4 @@ There are three methods to use our database:
 - Download Sqlite database (from [our website](https://remede.camarm.fr/download))
 - Using API (with [API documentation](https://api-remede.camarm.fr/docs))
 
-You can also read our blog post "[Utiliser les données Remède]()".
+You can also read our blog post "[Utiliser les données Remède](https://remede.camarm.fr/2024/06/07/Version-1.2.0-news.html)".
