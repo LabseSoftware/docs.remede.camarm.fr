@@ -2,6 +2,7 @@
 layout: default
 title: Database schema
 parent: Database
+permalink: /docs/database/db-schema
 ---
 
 # Database schema
@@ -12,20 +13,20 @@ Discover how Remède's database is storing an entire dictionary.
 
 The database is divided in three tables :
 
-| Name       | Description                                        |
-|------------|----------------------------------------------------|
-| dictionary | all Remède [documents][Document schema]            |
-| rimes      | an indexations of words to make a rimes dictionary |
-| wordlist   | an index of all the words to make search faster    |
+| Name       | Description                                                                |
+|------------|----------------------------------------------------------------------------|
+| dictionary | all Remède [documents](https://docs.remede.camarm.fr/docs/database/schema) |
+| rimes      | an indexations of words to make a rimes dictionary                         |
+| wordlist   | an index of all the words to make search faster                            |
 
 ## Dictionary table
 
 This table contains rows with the following fields:
 
-| Field    | Description                                            | Type     |
-|----------|--------------------------------------------------------|----------|
-| word     | The word                                               | `string` |
-| document | The word's [document][Document Schema], as JSON-string | `string` |
+| Field    | Description                                                                               | Type     |
+|----------|-------------------------------------------------------------------------------------------|----------|
+| word     | The word                                                                                  | `string` |
+| document | The word's [document](https://docs.remede.camarm.fr/docs/database/schema), as JSON-string | `string` |
 
 
 ## Rimes table
@@ -45,7 +46,7 @@ This table contains rows with the following fields:
 | elidable | Can the word be precede by an "élide"^1 | `boolean` | `false`       |
 | feminine | Is the last phoneme "féminine"          | `boolean` | `false`       |
 
-See [Rimes][Rimes]
+See [Rimes](https://docs.remede.camarm.fr/docs/database/rimes)
 
 ## Wordlist table
 
