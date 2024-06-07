@@ -16,3 +16,7 @@ Browse the categories and learn how Remède is built and how you can reuse its d
 [Get started now](https://docs.remede.camarm.fr/docs/getting-started){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
 [View it on GitHub](https://github.com/camarm-dev/remede){: .btn .btn-outline .fs-5 .mb-4 .mb-md-0 }
 
+---
+
+[Integrate Remède to my project](https://docs.remede.camarm.fr/docs/database/usage){: .btn .btn-outline .fs-5 .mb-4 .mb-md-0 }
+
