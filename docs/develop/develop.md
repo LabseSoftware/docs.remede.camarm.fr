@@ -6,7 +6,7 @@ has_children: true
 permalink: /docs/develop
 ---
 
-# Deve
+# Develop on Remède
 
-La documentation Remède est aussi accessible en français ! Après tout, Remède c'est avant tout un dictionnaire français
+Starts contributing to the best dictionary ever now !
 {: .fs-6 .fw-300 }
