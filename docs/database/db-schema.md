@@ -57,4 +57,5 @@ This table contains rows with the following fields:
 | word    | The word                                                | `string` | `à vue d'œil`  |
 | indexed | The word but case, accent and special chars insensitive | `string` | `a vue d oeil` |
 
-[^1] In French, syllables can variate in pronunciation (e.g. the "l'" determinant is placed before the word, at pronunciation on syllable will be canceled).
+----
+[^1]: In French, syllables can variate in pronunciation (e.g. the "l'" determinant is placed before the word, at pronunciation on syllable will be canceled).
