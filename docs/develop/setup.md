@@ -2,6 +2,8 @@
 layout: default
 title: Setup
 parent: Develop on Remède
+nav_order: 0
+permalink: /docs/develop/setup
 ---
 
 # Setting up development environment
