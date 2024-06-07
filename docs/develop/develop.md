@@ -1,12 +1,12 @@
 ---
 layout: default
-title: French documentation
-nav_order: 15
+title: Develop on Remède
+nav_order: 1
 has_children: true
-permalink: /docs/fr
+permalink: /docs/develop
 ---
 
-# Documentation en français
+# Deve
 
 La documentation Remède est aussi accessible en français ! Après tout, Remède c'est avant tout un dictionnaire français
 {: .fs-6 .fw-300 }

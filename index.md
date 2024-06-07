@@ -16,4 +16,9 @@ Browse the categories and learn how Remède is built and how you can reuse its d
 
 ## Getting started
 
-This documentation is available in [French]() and [English]()
+You start by cloning your own copy of Remède locally:
+```shell
+git clone https://github.com/camarm-dev/remede
+```
+
+Now you can browse categories and documentation pages on left menu !
