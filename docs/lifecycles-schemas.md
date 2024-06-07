@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Lifecycle and infrastructure schemas
+title: Lifecycle and schemas
 nav_order: 10
 permalink: /docs/structure
 ---
@@ -23,13 +23,13 @@ graph LR
             DB[(Database)] --> Index
             DB --> Main
             DB --> Rimes
-            subgraph Index["Search index\n(wordlist)"]
+            subgraph Index["Search index (wordlist)"]
 
             end
-            subgraph Main["Default table\n(dictionary)"]
+            subgraph Main["Default table (dictionary)"]
 
             end
-            subgraph Rimes["Rimes table\n(rimes)"]
+            subgraph Rimes["Rimes table (rimes)"]
 
             end
         end
@@ -63,14 +63,10 @@ graph LR
         subgraph docker["`fa:fa-docker Dedicated Docker Server`"]
             B --> G[TTS service]
             B --> H[Corrector service]
-            B --> L[Rhymes graph service]
         end
         subgraph fa:fa-folder Filesystem
             C --> E[(Database)]
             E --> F[JSON]
-        end
-        subgraph fa:fa-folder Filesystem
-            L --> O[(Rhymes graph\ndatabase)]
         end
     end
 ```
