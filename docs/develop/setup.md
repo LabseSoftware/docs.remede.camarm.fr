@@ -32,7 +32,7 @@ Developing for Android does not need special requirements. Just install npm depe
 
 See [Capacitor documentation](https://capacitorjs.com/docs/android) for more information.
 
-{. :note }
+{: .note }
 > Make sure you have Android Studio installed.
 
 ## Setting up mobile development - iOS
