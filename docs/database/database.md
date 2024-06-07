@@ -7,6 +7,5 @@ permalink: /docs/database
 ---
 
 # Remède database
-
-Remède brings his own database. It is built from various sources which makes it huge ! Learn more about it in this section.
+Remède brings its own database. It is built from various sources which makes it huge ! Learn more about it in this section.
 {: .fs-6 .fw-300 }
