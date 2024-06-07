@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Build lifecycle
+grand_parent: Database
 parent: Building database
 permalink: /docs/database/build/lifecycle
 nav_order: 0

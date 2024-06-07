@@ -1,6 +1,7 @@
 ---
 layout: default
 title: About
+grand_parent: Database
 parent: Building database
 permalink: /docs/database/build/about
 nav_order: 2

@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Generate my own database
+grand_parent: Database
 parent: Building database
 permalink: /docs/database/build/generate
 nav_order: 1
