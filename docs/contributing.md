@@ -39,11 +39,11 @@ Remède fetches words from the Wictionary but sometimes, words are not in our li
 
 Check also [Building database - About - Quickly add a word](https://docs.remede.camarm.fr/docs/database/build/about#quickly-add-a-word)
 
-## Add cheatsheets
+## Add sheets
 
-Remède needs contributors who can add cheatsheets !
+Remède needs contributors who can add sheets !
 
-You can find a documentation about writting cheatsheets [here](https://docs.remede.camarm.fr/docs/cheatsheets)
+You can find a documentation about writting sheets [here](https://docs.remede.camarm.fr/docs/sheets)
 
 ## More
 
