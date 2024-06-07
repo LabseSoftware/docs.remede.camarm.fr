@@ -145,4 +145,4 @@ sequenceDiagram
 
 ```
 
-_Here, we can see that cheatsheets can only be fetched with an internet connection. The same goes for the word of the day_
+_Here, we can see that sheets can only be fetched with an internet connection. The same goes for the word of the day_
