@@ -13,7 +13,7 @@ Follow these steps before developing on Remède.
 
 ## Setting up Ionic framework
 Remède uses Ionic. You will install npm dependencies and requirements to start developing with Ionic.
-{: .fs-6 .fw-300 }
+{: .fs-3 .fw-300 }
 
 1. Make sure you have **node 18** installed.
 2. Move to the `app/` folder
@@ -28,7 +28,7 @@ npm install -g @ionic/cli
 
 ## Setting up mobile development - Android
 Ionic framework let us build Remède for native platforms with Capacitor.
-{: .fs-6 .fw-300 }
+{: .fs-3 .fw-300 }
 
 Developing for Android does not need special requirements. Just install npm dependencies.
 
@@ -39,7 +39,7 @@ See [Capacitor documentation](https://capacitorjs.com/docs/android) for more inf
 
 ## Setting up mobile development - iOS
 IonicFframework let us build Remède for iOS.
-{: .fs-6 .fw-300 }
+{: .fs-3 .fw-300 }
 
 We do not build Remède for iOs yet. Follow the [official Ionic documentation](https://ionicframework.com/docs/developing/ios).
 
@@ -48,7 +48,7 @@ We do not build Remède for iOs yet. Follow the [official Ionic documentation](h
 
 ## Fetch database
 Remède latest database is not served by git because it is too large... We host our database on our own servers.
-{: .fs-6 .fw-300 }
+{: .fs-3 .fw-300 }
 
 To fetch the latest database, you can use `curl` or `wget` as you prefer...
 
