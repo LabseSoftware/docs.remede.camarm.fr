@@ -14,7 +14,7 @@ Discover how the rimes database work.
 Remède uses a project called [drime](https://a3nm.net/git/drime) (2011-2020 by Antoine Amarilli, [GPL-v3](https://a3nm.net/git/drime/file/COPYING.html)) to generate a french rimes 
 database dump, and add this database to the main one using the script `scripts/build_rimes.py`.
 
-### Build the database
+## Build the database
 
 We provide a version of `drime.sql` but you can build your own one with the instruction on [drime's README](https://a3nm.net/git/drime/README)
 
