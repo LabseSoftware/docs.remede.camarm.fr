@@ -50,7 +50,7 @@ flowchart TB
   Loop --> syn[aynonymo.fr]
   Loop --> ant[antonymes.org]
   Loop .-> conj[conjuguons.fr]
-  def --> doc{{Remède document}}
+  def --> doc[[Remède document]]
   syn --> doc
   conj .-> doc
   ant --> doc
