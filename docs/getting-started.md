@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Getting started
-nav_order: 0
+nav_order: 1
 permalink: /docs/getting-started
 ---
 
