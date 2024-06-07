@@ -7,8 +7,11 @@ aux_links:
     Enhance this documentation on Github: https://github.com/labsesoftware/docs.remede.camarm.fr
 aux_links_new_tab: false
 nav_external_links:
-  - title: Website
-    url: https://remede.camarm.fr
+  - title: Public API documentation
+    url: https://api-remede.camarm.fr/docs
+
+  - title: Download
+    url: https://remede.camarm.fr/download
 
   - title: Download
     url: https://remede.camarm.fr/download
