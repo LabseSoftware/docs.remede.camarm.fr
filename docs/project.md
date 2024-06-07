@@ -23,4 +23,8 @@ available for **any platform**.
 My main goal is to provide a dictionary which is easy and pleasant to use ! I also wanted Remède to have **his own
 database**.
 
-Today, Remède is a dictionary, but it includes **a corrector**, **a rimes dictionary** and **french cheatsheets** !
+Today, Remède is a dictionary, but it includes **a corrector**, **a rimes dictionary** and **french sheets** !
+
+## Our future goal
+
+I want Remède to become completely cross-platform but also to support more languages !
