@@ -4,4 +4,16 @@ theme: just-the-docs
 
 url: https://docs.remede.camarm.fr
 aux_links:
-  Template Repository: https://github.com/just-the-docs/just-the-docs-template
+    Enhance this documentation on Github: https://github.com/labsesoftware/docs.remede.camarm.fr
+
+nav_external_links:
+  - title: Website
+    url: https://remede.camarm.fr
+
+  - title: Download
+    url: https://remede.camarm.fr/download
+
+back_to_top: true
+back_to_top_text: "Back to top"
+
+footer_content: "Copyright &copy; 2023-2024 Labse Software."
