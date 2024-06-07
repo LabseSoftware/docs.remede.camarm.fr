@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Structure
+title: Contributing
 nav_order: 11
 permalink: /docs/contributing
 ---
