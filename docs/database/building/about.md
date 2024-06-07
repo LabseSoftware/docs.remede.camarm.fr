@@ -28,26 +28,26 @@ docker build -t remede-definition-api . && docker run -p 8089:80 remede-definiti
 
 ## Quickly add a word
 
-Le script `scripts/add_word.py` permet d'ajouter un mot rapidement à la base sans la reconstruire...
+The script `scripts/add_word.py` let you add a word to the Remède database without rebuilding it totally.
 
-Il :
-- Ajoute votre mot dans `data/mots.txt`
-- Ajoute votre mot dans le JSON
-- Ajoute votre mot dans `data/remede.db`
-- Re-génère l'index de `data/remede.db`
+It :
+- Add your word in `data/mots.txt`
+- Add your word's generate Remède document in JSON files
+- Add your word's document in `data/remede.db`
+- Re-generated the search index of `data/remede.db`
 
 ```shell
 python3 scripts/add_word.py <word> <phoneme>
 ```
 
-Pour ajouter plusieurs mots:
+To add multiple words:
 
-`wordlist.txt` (tabulation entre mot et ipa: `mot\t/ipa/`)
+`wordlist.txt` (tabulation between word and IPA: `mot\t/ipa/`)
 ```
 acupuncture /a.ky.pɔ̃k.tyʁ/
 remède  /ʁəmɛd/
 ```
-et exécuter
+and execute
 ```shell
 python3 scripts/add_word.py -f wordlist.txt
 ```
