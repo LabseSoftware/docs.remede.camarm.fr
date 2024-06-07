@@ -2,6 +2,7 @@
 layout: default
 title: Building database
 nav_order: 15
+has_children: true
 parent: Database
 ---
 

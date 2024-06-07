@@ -2,7 +2,7 @@
 layout: default
 title: Develop on Remède
 nav_order: 1
-has_children: false
+has_children: true
 permalink: /docs/develop
 ---
 
