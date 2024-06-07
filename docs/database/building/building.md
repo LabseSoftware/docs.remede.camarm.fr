@@ -2,7 +2,7 @@
 layout: default
 title: Building database
 nav_order: 15
-has_children: true
+has_children: false
 permalink: /docs/database/build
 ---
 

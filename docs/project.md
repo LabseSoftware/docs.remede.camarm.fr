@@ -2,7 +2,7 @@
 layout: default
 title: The Remède project
 nav_order: 0
-has_children: true
+has_children: false
 permalink: /docs/project
 ---
 
