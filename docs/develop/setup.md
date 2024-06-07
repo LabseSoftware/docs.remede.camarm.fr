@@ -43,7 +43,7 @@ Ionic Framework let us build Remède for iOS.
 
 We do not build Remède for iOs yet. Follow the [official Ionic documentation](https://ionicframework.com/docs/developing/ios).
 
-{: .caution }
+{: .warning }
 > Remède has not been tested yet on iOS ! Build and use it at your own risks...
 
 ## Setting up API development
