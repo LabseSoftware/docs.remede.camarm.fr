@@ -2,7 +2,8 @@
 layout: default
 title: Credits
 parent: Database
-nav_order: 10
+nav_order: 15
+permalink: /docs/database/credits
 ---
 
 # Credits
