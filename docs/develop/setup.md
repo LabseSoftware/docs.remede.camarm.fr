@@ -33,7 +33,7 @@ Developing for Android does not need special requirements. Just install npm depe
 See [Capacitor documentation](https://capacitorjs.com/docs/android) for more information.
 
 {. :note}
-> Make sure you have Android Studio installed.
+Make sure you have Android Studio installed.
 
 ## Setting up mobile development - iOS
 IonicFframework let us build Remède for iOS.
@@ -42,7 +42,7 @@ IonicFframework let us build Remède for iOS.
 We do not build Remède for iOs yet. Follow the [official Ionic documentation](https://ionicframework.com/docs/developing/ios).
 
 {: .danger}
-> Remède has not been tested yet on iOS ! Build and use it at your own risks...
+Remède has not been tested yet on iOS ! Build and use it at your own risks...
 
 ## Fetch database
 Remède latest database is not served by git because it is too large... We host our database on our own servers.
@@ -51,7 +51,7 @@ Remède latest database is not served by git because it is too large... We host 
 To fetch the latest database, you can use `curl` or `wget` as you prefer...
 
 {: .warning}
-> Execute these commands at project root.
+Execute these commands at project root.
 
 - With `curl`
 ```shell
@@ -64,6 +64,6 @@ wget -O data/remede.db https://api-remede.camarm.fr/download?variant=remede
 ```
 
 {: .note}
-> Remède used to store its databases on **Github LFS servers** but our quota has been exceeded... The databases which 
-> are still stored in git lfs are **outdated**
+Remède used to store its databases on **Github LFS servers** but our quota has been exceeded... The databases which 
+are still stored in git lfs are **outdated**.
 
