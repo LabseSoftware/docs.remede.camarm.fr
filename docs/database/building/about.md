@@ -36,6 +36,9 @@ It :
 - Add your word's document in `data/remede.db`
 - Re-generated the search index of `data/remede.db`
 
+{: .note }
+> You must have an [api-definition](#api-définition) instance running locally !
+
 ```shell
 python3 scripts/add_word.py <word> <phoneme>
 ```
@@ -50,4 +53,18 @@ remède  /ʁəmɛd/
 and execute
 ```shell
 python3 scripts/add_word.py -f wordlist.txt
+```
+
+
+## Wiktionary crawler
+
+The script `scripts/crawl_wiktionary.py` crawls the wiktionary for word pages and add them to a `.words_to_add` file.
+
+It adds all the **words that are not already in the database** to this file, them can be added with `scripts/add_word.py`. (referenced [just above](#quickly-add-a-word))
+
+This script take a while to crawl all the wiktionary so be patient ! 
+
+Usage:
+```shell
+python3 scripts/crawl_wiktionary.py
 ```
