@@ -68,5 +68,5 @@ This script take a while to crawl all the wiktionary so be patient !
 
 Usage:
 ```shell
-python3 scripts/crawl_wiktionary.py <path to wordlist>
+python3 scripts/check_wordlist.py <path to wordlist>
 ```
