@@ -2,7 +2,7 @@
 layout: default
 title: Using database
 parent: Database
-nav_order: 14
+nav_order: 6
 permalink: /docs/database/usage
 ---
 

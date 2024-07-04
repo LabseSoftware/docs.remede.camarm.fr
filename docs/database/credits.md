@@ -2,7 +2,7 @@
 layout: default
 title: Credits
 parent: Database
-nav_order: 15
+nav_order: 8
 permalink: /docs/database/credits
 ---
 

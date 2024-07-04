@@ -3,6 +3,7 @@ layout: default
 title: Rimes
 parent: Database
 permalink: /docs/database/rimes
+nav_order: 5
 ---
 
 # Rimes database

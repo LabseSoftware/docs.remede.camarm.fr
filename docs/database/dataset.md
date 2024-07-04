@@ -3,6 +3,7 @@ layout: default
 title: Dataset
 parent: Database
 permalink: /docs/database/dataset
+nav_order: 2
 ---
 
 # Dataset

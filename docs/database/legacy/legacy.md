@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Legacy
-nav_order: 15
+nav_order: 9
 has_children: true
 parent: Database
 permalink: /docs/database/legacy

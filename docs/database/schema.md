@@ -3,6 +3,7 @@ layout: default
 title: Document schema
 parent: Database
 permalink: /docs/database/schema
+nav_order: 4
 ---
 
 # The Remède document schema

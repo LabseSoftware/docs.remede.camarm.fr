@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Building database
-nav_order: 14
+nav_order: 1
 has_children: true
 parent: Database
 permalink: /docs/database/build

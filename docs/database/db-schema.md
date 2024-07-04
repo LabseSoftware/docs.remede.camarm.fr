@@ -3,6 +3,7 @@ layout: default
 title: Database schema
 parent: Database
 permalink: /docs/database/db-schema
+nav_order: 3
 ---
 
 # Database schema
