@@ -11,12 +11,15 @@ The roots of Remède...
 
 The `data` folder is destined to the linguistics resources used by Remède.
 
-`data/mots.txt`: List of +245 000 words, comma separated
+`data/mots.txt`: List of ~1 000 000 words, comma separated
 
 `data/ipa.json`: For a key 'word', returns his IPA
 - Generated from `data/IPA.txt`: a text file of format `[word]\t[ipa]` by `scripts/pre_generate_ressources.py`
 
-`data/REMEDE_a.jon`: The final indexed file ; for a key 'word' returns [his document following the REMEDE schema](https://docs.remede.camarm.fr/docs/database/schema)
+`data/remede.legacy.db`: The old sqlite database ([reference](https://docs.remede.camarm.fr/docs/database/db-schema))
+
+{: .note }
+> The `data/remede.db` file is not included in git files, see [Setup](/docs/develop/setup#fetch-database) to download it.
 
 `data/remede.db`: A sqlite database ([reference](https://docs.remede.camarm.fr/docs/database/db-schema))
 
