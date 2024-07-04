@@ -16,8 +16,6 @@ The `data` folder is destined to the linguistics resources used by Remède.
 `data/ipa.json`: For a key 'word', returns his IPA
 - Generated from `data/IPA.txt`: a text file of format `[word]\t[ipa]` by `scripts/pre_generate_ressources.py`
 
-`data/remede.legacy.db`: The old sqlite database ([reference](https://docs.remede.camarm.fr/docs/database/db-schema))
-
 {: .note }
 > The `data/remede.db` file is not included in git files, see [Setup](/docs/develop/setup#fetch-database) to download it.
 
