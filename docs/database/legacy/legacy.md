@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Legacy Database
+title: Legacy
 nav_order: 15
 has_children: true
 parent: Database
