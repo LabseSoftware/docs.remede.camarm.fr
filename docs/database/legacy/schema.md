@@ -3,7 +3,7 @@ layout: default
 title: Document schema
 grand_parent: Database
 parent: Legacy
-permalink: /docs/database/schema
+permalink: /docs/database/legacy/schema
 ---
 
 # The Remède document schema
