@@ -80,9 +80,13 @@ Here are the specifications of each field :
     - `nature` (`string`): The grammar class of defined word
     - `explanations` (`[]string`): List of possible explanation of defined word
     - `examples` (`[]string`): List of examples sentences using this word (NOT IMPLEMENTED)
+- `plurals` (`[]{}`): The word plurals
+  - `label`: A label related to the type of the plural
+  - `singular`: The word as singular
+  - `plural`: The plural of the word
 - `credits` (`string`): Source url (for definition)
 - `phoneme` (`string`): International Phonetic Alphabet pronunciation of the word
 - `conjugations` (`{}`): Object containing word's conjugations
-    - `[nom du mode]` (`{}`): Object containing conjugations' tenses for mode
-        - `[nom du temps]` (`{}`): Object containing subjects of tense
-            - `[sujet]` (`string`): Verbal form (of `mode, tense, subject`)
+    - `[mode name]` (`{}`): Object containing conjugations' tenses for mode
+        - `[tense name]` (`{}`): Object containing subjects of tense
+            - `[subject]` (`string`): Verbal form (of `mode, tense, subject`)
