@@ -55,7 +55,11 @@ JSON schema of an indexed word by Remède looks like:
         }
       ],
       "plurals": [
-        "des remèdes"
+        {
+          "label": "Masculin",
+          "singular": "remède",
+          "plural": "remèdes"
+        }
       ]
     }
   ],
