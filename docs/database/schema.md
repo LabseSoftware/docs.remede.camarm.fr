@@ -14,7 +14,7 @@ JSON schema of an indexed word by Remède looks like:
 
 ```json
 {
-  "synonys": [
+  "synonyms": [
     "acupuncture",
     ...
   ],
