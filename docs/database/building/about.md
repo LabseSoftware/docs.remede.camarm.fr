@@ -32,9 +32,7 @@ The script `scripts/add_word.py` let you add a word to the Remède database with
 
 It :
 - Add your word in `data/mots.txt`
-- Add your word's generate Remède document in JSON files
 - Add your word's document in `data/remede.db`
-- Re-generated the search index of `data/remede.db`
 
 {: .note }
 > You must have an [api-definition](#api-définition) instance running locally !
@@ -60,11 +58,9 @@ python3 scripts/add_word.py -f wordlist.txt
 
 This script was created to iterate wordlists (text file with words separated by a newline) to add them to Remède...
 
-The script `scripts/check_wordlist.py` crawls the wiktionary for word pages and add them to a `.words_to_add` file.
+The script `scripts/check_wordlist.py` iterate the given wordlist, find every word phoneme and add them to a `.words_to_add` file.
 
 It adds all the **words that are not already in the database** to this file, them can be added with `scripts/add_word.py`. (referenced [just above](#quickly-add-a-word))
-
-This script take a while to crawl all the wiktionary so be patient ! 
 
 Usage:
 ```shell
