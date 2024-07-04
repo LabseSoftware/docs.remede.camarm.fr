@@ -15,7 +15,12 @@ If you need **a french dictionary**, choose Remède. It is free, open and simple
 ---
 
 There are three methods to use our database:
-- Download JSON files (available on our [Github Repository](https://github.com/camarm-dev/remede/tree/main/data))
+- Download JSON files (available on our [Github Repository](https://github.com/camarm-dev/remede/tree/1.2.3/data))
+
+{: .warning }
+> JSON files are depreciated since Remède `1.3.0` and removed by `1.4.0`. See [Remède Next](/docs/next)
+
+
 - Download Sqlite database (from [our website](https://remede.camarm.fr/download))
 - Using API (with [API documentation](https://api-remede.camarm.fr/docs))
 
