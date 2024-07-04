@@ -6,8 +6,8 @@ parent: Legacy
 permalink: /docs/database/legacy/db-schema
 ---
 
-# Database schema
-Discover how Remède's database is storing an entire dictionary. 
+# Legacy database schema
+Discover how Remède used to store data in his database. 
 {: .fs-6 .fw-300 }
 
 ## Tables
