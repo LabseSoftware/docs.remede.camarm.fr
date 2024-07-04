@@ -15,44 +15,37 @@ Please read [Lifecycle](https://docs.remede.camarm.fr/docs/database/build/lifecy
 
 See also [Quickly add a word](https://docs.remede.camarm.fr/docs/database/build/about).
 
-## 0 - Generate required ressources
+## 1 - Generate required ressources
 
 ```shell
 python3 scripts/pre_generate_ressources.py
 ```
 
-## 1 - Start parsing words
+## 2 - Start parsing words
 
-1. Start [api-definition](https://docs.remede.camarm.fr/docs/database/build/about) in local
-2. Start `parse.py`
+You need to start [api-definition](https://docs.remede.camarm.fr/docs/database/build/about) in local, so our generation script can get definitions of Wiktionary.
+
+Start `generate.py`
 ```shell
-python3 scripts/parse.py
+python3 scripts/generate.py
 ```
 This operation take few days !
 
-> [!NOTE]
-> You can select letters to parse using an argument : `python3 scripts/parse.py --letters a,b,c,d,e`
-> 
-> With this method you can run multiple parse scripts at the same time.
+{: .warning }
+> Generating a new database will erase the current one ! Make sure to save it before ! For example, make a copy of it; ```cp data/remede.db data/remede.07-06-2024.db```
 
-## 2 - Generate the Sqlite database
-
-```shell
-python3 generate_sqlite.py
-```
-
-## 3 - Generate the search index
-
-```shell
-python3 generate_index.py
-```
-
-## 4 - Add the rimes dictionary
-
-```shell
-python3 build_rimes.py
-```
-
-## 5 - Enjoy your own database !
+## 3 - Enjoy your own database !
 
 The database situated at `data/remede.db` has been generated successfully, and you can now serve it with the API ! Congratulations !
+
+## Troubleshooting
+
+A generation is very long ! Sometimes it crashes or freeze... The `generate.py` script handle crashes (or in cas of freeze, the KeyboardInterrupt that you can trigger by pressing <kbd>ctrl-c</kbd> in your terminal to end the process) and saves its progression:
+- `data/remede.save.db`; a save of the database
+- `data/missing-wordlist.txt`; the list of words that should have been added
+
+To **resume the generation**, execute
+```Shell
+python3 scripts/generate.py --resume
+```
+_It will automatically resume the process with the saved files_
