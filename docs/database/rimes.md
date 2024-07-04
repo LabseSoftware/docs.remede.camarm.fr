@@ -11,18 +11,11 @@ Discover how the rimes database work.
 
 ## How it work ?
 
-Remède uses a project called [drime](https://a3nm.net/git/drime) (2011-2020 by Antoine Amarilli, [GPL-v3](https://a3nm.net/git/drime/file/COPYING.html)) to generate a french rimes 
-database dump, and add this database to the main one using the script `scripts/build_rimes.py`.
+Remède is able to serve a **rhymes dictionary** using its database.
 
-## Build the database
+It uses the field **phoneme** to know which words ends with the same sound. The query looks like (with phoneme `e`)
+```SQL
+SELECT * FROM dictionary WHERE phoneme LIKE '%e'
+```
 
-We provide a version of `drime.sql` but you can build your own one with the instruction on [drime's README](https://a3nm.net/git/drime/README)
-
-To integrate this database in Remède database, you must execute `scripts/build_rimes.py`.
-
-## Rimes service
-
-The rime database (drime one) is pushed into `data/remede.db` (in a table named `rimes`) with the script `scripts/build_rimes.py`.
-
-When the database is downloaded in the mobile application, the "Rimes" menu link is unlocked.
-
+TODO: more precision with elide ect
