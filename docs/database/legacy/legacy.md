@@ -1,0 +1,13 @@
+---
+layout: default
+title: Legacy Database
+nav_order: 15
+has_children: true
+parent: Database
+permalink: /docs/database/legacy
+---
+
+# Legacy database
+
+Remède Next has introduced a new database. Old documentations related to the legacy database can be found here.
+{: .fs-6 .fw-300 }
