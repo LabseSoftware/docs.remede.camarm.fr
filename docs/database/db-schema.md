@@ -9,53 +9,34 @@ permalink: /docs/database/db-schema
 Discover how Remède's database is storing an entire dictionary. 
 {: .fs-6 .fw-300 }
 
+Remède database is an **Sqlite 3** database.
+
 ## Tables
 
-The database is divided in three tables :
+The database only hav one table :
 
 | Name       | Description                                                                |
 |------------|----------------------------------------------------------------------------|
 | dictionary | all Remède [documents](https://docs.remede.camarm.fr/docs/database/schema) |
-| rimes      | an indexations of words to make a rimes dictionary                         |
-| wordlist   | an index of all the words to make search faster                            |
 
 ## Dictionary table
 
-This table contains rows with the following fields:
+The unique table of Remède contains the following fields:
 
-| Field    | Description                                                                               | Type     |
-|----------|-------------------------------------------------------------------------------------------|----------|
-| word     | The word                                                                                  | `string` |
-| document | The word's [document](https://docs.remede.camarm.fr/docs/database/schema), as JSON-string | `string` |
+| Field     | Description                                                                               | Type      | Example                                       |
+|-----------|-------------------------------------------------------------------------------------------|-----------|-----------------------------------------------|
+| word      | The word                                                                                  | `string`  | `manger`                                      |
+| indexed   | The word but case, accent and special chars insensitive                                   | `string`  | `manger` (`a vue d oeil` is a better example) |
+| phoneme   | The word's phoneme                                                                        | `string`  | `m#Ze`                                        |
+| nature    | The word's nature                                                                         | `string`  | `VER\|manger`                                 |
+| freq      | The word's frequency in french language                                                   | `float`   | `37905` (or `0` if no value)                  |
+| syllables | The word's syllables number                                                               | `integer` | `2`                                           |
+| elidable  | Can the word be precede by an "élide"^1                                                   | `boolean` | `false`                                       |
+| feminine  | Is the last phoneme "féminine"                                                            | `boolean` | `false`                                       |
+| document  | The word's [document](https://docs.remede.camarm.fr/docs/database/schema), as JSON-string | `string`  | `{...}`                                       |
 
 
-## Rimes table
-
-This table contains rows with the following fields:
-
-| Field    | Description                             | Type      | Example       |
-|----------|-----------------------------------------|-----------|---------------|
-| word     | The word                                | `string`  | `manger`      |
-| phon     | The word's phoneme                      | `string`  | `m#Ze`        |
-| orgi     | The word's nature                       | `string`  | `VER\|manger` |
-| freq     | The word's frequency in french language | `float`   | `37905`       |
-| min_nsyl | The word's maximum syllables^1          | `integer` | `2`           |
-| max_nsyl | The word's minimum syllables^1          | `integer` | `2`           |
-| word_end | The word's last syllables               | `string`  | `er`          |
-| phon_end | The word's last phoneme                 | `string`  | `e`           |
-| elidable | Can the word be precede by an "élide"^1 | `boolean` | `false`       |
-| feminine | Is the last phoneme "féminine"          | `boolean` | `false`       |
-
-See [Rimes](https://docs.remede.camarm.fr/docs/database/rimes)
-
-## Wordlist table
-
-This table contains rows with the following fields:
-
-| Field   | Description                                             | Type     | Example        |
-|---------|---------------------------------------------------------|----------|----------------|
-| word    | The word                                                | `string` | `à vue d'œil`  |
-| indexed | The word but case, accent and special chars insensitive | `string` | `a vue d oeil` |
+- See [Rimes](https://docs.remede.camarm.fr/docs/database/rimes) to know how this is used as a rhymes dictionary
 
 ----
 [^1]: In French, syllables can variate in pronunciation (e.g. the "l'" determinant is placed before the word, at pronunciation on syllable will be canceled).
