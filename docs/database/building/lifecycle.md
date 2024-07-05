@@ -37,7 +37,7 @@ A script to iterate words and build their Remède document.
 2. For each word, it retrieves its definition using [`api-definition`](#api-définition) and more information with extern services...
 3. It generates its [Remède document](https://docs.remede.camarm.fr/docs/database/schema)
 4. It inserts into the Sqlite database: the word, its sanitized form, its phoneme, its `JSON` format (and more metadata required for powerful and advanced features)
-
+    - Metadata like if the last phoneme is `feminine`, the number of `syllables` or if the word can have an `elide` are taken from [Open Lexicon](http://www.lexique.org/?page_id=91) database ([Drime](https://a3nm.net/git/drime/files.html) project) or calculated with less precision by us...
 ```mermaid
 flowchart TB
   words[(Word\ndatabase)] --> Loop
@@ -49,6 +49,7 @@ flowchart TB
   syn --> doc
   conj .-> doc
   ant --> doc
+  openlexicon[(Open Lexicon\nStats)] -- Syllables, elides and feminines\n stats merged and added to --> db
   doc -- Is inserted into --> db[(Remède\nSqlite Database)]
 ```
 _A lifecycle schema of `parse.py`_
