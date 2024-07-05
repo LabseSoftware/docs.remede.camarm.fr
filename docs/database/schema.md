@@ -64,7 +64,11 @@ JSON schema of an indexed word by Remède looks like:
       ]
     }
   ],
-  "credits": "https://fr.wiktionary.org/wiki/rem%C3%A8de",
+  "sources": [
+    "fr_wik",
+    "synonymo_fr",
+    "antonymes_org"
+  ],
   "phoneme": "/ʁəmɛd/",
   "conjugations": {}
 }
@@ -84,7 +88,7 @@ Here are the specifications of each field :
   - `label`: A label related to the type of the plural
   - `singular`: The word as singular
   - `plural`: The plural of the word
-- `credits` (`string`): Source url (for definition)
+- `source` (`string[]`): A list of sources ids, to be displayed in interface. Their urls and link can be found at [app/src/functions/sources.ts](https://github.com/camarm-dev/remede/tree/main/app/src/functions/sources.ts). Sources are also described at [Database Credits](/docs/database/credits) page.
 - `phoneme` (`string`): International Phonetic Alphabet pronunciation of the word
 - `conjugations` (`{}`): Object containing word's conjugations
     - `[mode name]` (`{}`): Object containing conjugations' tenses for mode
