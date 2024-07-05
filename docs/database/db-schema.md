@@ -30,10 +30,9 @@ The unique table of Remède contains the following fields:
 | indexed   | The word but case, accent and special chars insensitive                                   | `string`  | `manger` (`a vue d oeil` is a better example) |
 | phoneme   | The word's phoneme                                                                        | `string`  | `m#Ze`                                        |
 | nature    | The word's nature                                                                         | `string`  | `VER\|manger`                                 |
-| freq      | The word's frequency in french language                                                   | `float`   | `37905` (or `0` if no value)                  |
 | syllables | The word's syllables number                                                               | `integer` | `2`                                           |
-| elidable  | Can the word be precede by an "élide"^1                                                   | `boolean` | `false`                                       |
-| feminine  | Is the last phoneme "féminine"                                                            | `boolean` | `false`                                       |
+| elidable  | Can the word be precede by an "élide"^1                                                   | `boolean` | `false` or `null` if no data                  |
+| feminine  | Is the last phoneme "féminine"                                                            | `boolean` | `false` or `null` if no data                  |
 | document  | The word's [document](https://docs.remede.camarm.fr/docs/database/schema), as JSON-string | `string`  | `{...}`                                       |
 
 
