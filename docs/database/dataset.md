@@ -20,7 +20,9 @@ The `data` folder is destined to the linguistics resources used by Remède.
 {: .note }
 > The `data/remede.db` file is not included in git files, see [Setup](/docs/develop/setup#fetch-database) to download it.
 
+- `data/remede.schema.json`: JSON schema of [Remède document](/docs/database/schema)
 - `data/custom_words.json`:  File to add custom words... The words documents must follow the [Remède Document Schema](/docs/database/schema)
+  - `data/custom_words.schema.json`:  its JSON schema
 
 `data/remede.db`: A sqlite database ([reference](https://docs.remede.camarm.fr/docs/database/db-schema))
 
