@@ -10,6 +10,15 @@ nav_order: 4
 A Remède word document contains everything about a word stored in Remède's database. 
 {: .fs-6 .fw-300 }
 
+[Download Remède Document JSON Schema](https://github.com/camarm-dev/remede/tree/main/data/remede.schema.json){: .btn .btn-outline .fs-5 .mb-4 .mb-md-0 }
+
+Or use it into your JSON files:
+```JSON
+{
+  "$schema": "https://remede.camarm.fr/schema.json"
+}
+```
+
 JSON schema of an indexed word by Remède looks like:
 
 ```json
@@ -88,7 +97,7 @@ Here are the specifications of each field :
   - `label`: A label related to the type of the plural
   - `singular`: The word as singular
   - `plural`: The plural of the word
-- `source` (`string[]`): A list of sources ids, to be displayed in interface. Their urls and link can be found at [app/src/functions/sources.ts](https://github.com/camarm-dev/remede/tree/main/app/src/functions/sources.ts). Sources are also described at [Database Credits](/docs/database/credits) page.
+- `source` (`string[]`): <a name="sourcesids"></a> A list of sources ids, to be displayed in interface. Their urls and link can be found at [app/src/functions/sources.ts](https://github.com/camarm-dev/remede/tree/main/app/src/functions/sources.ts). Sources are also described at [Database Credits](/docs/database/credits) page.
 - `phoneme` (`string`): International Phonetic Alphabet pronunciation of the word
 - `conjugations` (`{}`): Object containing word's conjugations
     - `[mode name]` (`{}`): Object containing conjugations' tenses for mode
