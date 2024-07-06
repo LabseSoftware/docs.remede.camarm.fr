@@ -15,7 +15,7 @@ Discover how the rimes database work.
 Remède is able to serve a **rhymes dictionary** using its database.
 
 It uses the field **phoneme** to know which words ends with the same sound. The query looks like (with phoneme `e`)
-```SQL
+```sql
 SELECT * FROM dictionary WHERE phoneme LIKE '%e'
 ```
 

@@ -13,7 +13,7 @@ A Remède word document contains everything about a word stored in Remède's dat
 [Download Remède Document JSON Schema](https://github.com/camarm-dev/remede/tree/main/data/remede.schema.json){: .btn .btn-outline .fs-5 .mb-4 .mb-md-0 }
 
 Or use it into your JSON files:
-```JSON
+```json
 {
   "$schema": "https://remede.camarm.fr/schema.json"
 }

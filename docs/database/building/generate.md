@@ -45,7 +45,7 @@ A generation is very long ! Sometimes it crashes or freeze... The `generate.py` 
 - `data/missing-wordlist.txt`; the list of words that should have been added
 
 To **resume the generation**, execute
-```Shell
+```shell
 python3 scripts/generate.py --resume
 ```
 _It will automatically resume the process with the saved files_
