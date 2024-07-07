@@ -1,8 +1,6 @@
-
 ---
 layout: default
 title: Writing sheets
-parent: Database
 nav_order: 10
 permalink: /docs/sheets
 ---
