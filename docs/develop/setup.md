@@ -80,3 +80,25 @@ wget -O data/remede.db https://api-remede.camarm.fr/download?variant=remede
 > Remède used to store its databases on **Github LFS servers** but our quota has been exceeded... The databases which 
 > are still stored in git lfs are **outdated**.
 
+
+## Git submodules
+Remède includes external projects to its codebase using git submodules...
+{: .fs-3 .fw-300 }
+
+To fetch or update the git submodules, just pull the distant repository inside the submodule's directory:
+
+For example :
+```shell
+cd api-definition && git pull origin main
+```
+
+{: .note }
+> If you are pulling the submodules for the **first time**, you must execute 
+
+```shell
+git submodule update --init --recursive
+```
+
+**Lists of submodules :**
+- `/api-definition`: [api-definition](https://github.com/LabseSoftware/api-definition)
+
