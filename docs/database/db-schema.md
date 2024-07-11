@@ -24,19 +24,22 @@ The database only hav one table :
 
 The unique table of Remède contains the following fields:
 
-| Field     | Description                                                                               | Type      | Example                                       |
-|-----------|-------------------------------------------------------------------------------------------|-----------|-----------------------------------------------|
-| word      | The word                                                                                  | `string`  | `manger`                                      |
-| indexed   | The word but case, accent and special chars insensitive                                   | `string`  | `manger` (`a vue d oeil` is a better example) |
-| phoneme   | The word's phoneme                                                                        | `string`  | `m#Ze`                                        |
-| nature    | The word's nature                                                                         | `string`  | `VER\|manger`                                 |
-| syllables | The word's syllables number                                                               | `integer` | `2`                                           |
-| elidable  | Can the word be precede by an "élide"^1                                                   | `boolean` | `false` or `null` if no data                  |
-| feminine  | Is the last phoneme "féminine"                                                            | `boolean` | `false` or `null` if no data                  |
-| document  | The word's [document](https://docs.remede.camarm.fr/docs/database/schema), as JSON-string | `string`  | `{...}`                                       |
+| Field         | Description                                                                               | Type      | Example                                       |
+|---------------|-------------------------------------------------------------------------------------------|-----------|-----------------------------------------------|
+| word          | The word                                                                                  | `string`  | `manger`                                      |
+| indexed       | The word but case, accent and special chars insensitive                                   | `string`  | `manger` (`a vue d oeil` is a better example) |
+| phoneme       | The word's phoneme                                                                        | `string`  | `m#Ze`                                        |
+| nature        | The word's nature                                                                         | `string`  | `VER\|manger`                                 |
+| syllables     | The word's syllables number                                                               | `integer` | `2`                                           |
+| min_syllables | The word's max syllables number^2                                                         | `integer` | `2`                                           |
+| max_syllables | The word's min syllables number^2                                                         | `integer` | `3`                                           |
+| elidable      | Can the word be precede by an "élide"^1                                                   | `boolean` | `false` or `null` if no data                  |
+| feminine      | Is the last phoneme "féminine"                                                            | `boolean` | `false` or `null` if no data                  |
+| document      | The word's [document](https://docs.remede.camarm.fr/docs/database/schema), as JSON-string | `string`  | `{...}`                                       |
 
 
 - See [Rimes](https://docs.remede.camarm.fr/docs/database/rimes) to know how this is used as a rhymes dictionary
 
 ----
 [^1]: In French, syllables can variate in pronunciation (e.g. the "l'" determinant is placed before the word, at pronunciation on syllable will be canceled).
+[^2]: A word can hav multiple syllables number... These data are useful for poetry
