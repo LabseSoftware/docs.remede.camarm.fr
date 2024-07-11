@@ -53,7 +53,7 @@ Remède has a public API written with FastAPI.
 1. Make sure you have **Python 3** installed.
 2. Install dependencies
 ```shell
-pip install fastapi uvicorn starlette python-frontmatter markdown
+pip install -r requirements.txt
 ```
 3. [Fetch database](#fetch-database) so the API can serve it
 
