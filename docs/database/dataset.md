@@ -25,4 +25,5 @@ The `data` folder is destined to the linguistics resources used by Remède.
   - `data/custom_words.schema.json`:  its JSON schema
 
 `data/remede.db`: A sqlite database ([reference](https://docs.remede.camarm.fr/docs/database/db-schema))
+`data/drime.db`: The [Open Lexicon](http://lexique.org/shiny/openlexicon/) french database rewrote by the project [drime](https://a3nm.net/git/drime/files.html). Useful to get precise word metadata like syllables.
 
