@@ -34,7 +34,8 @@ Remède creates its own base of french words, synonyms, antonyms with extern ser
 _English database is not available yet_
 
 - Definitions, examples and etymologies by the [english Wiktionary](https://en.wiktionary.org)<sup>[CC BY-SA 3.0 Deed](https://fr.wiktionary.org/wiki/Wiktionnaire:Licence)</sup>, with the API wrapper made by [Frederic Gainza](https://api-definition.fgainza.fr/)<sup>[GPL 3.0](https://github.com/FredGainza/api-definition/blob/main/LICENSE)</sup>, modified by [Labse Software](https://github.com/LabseSoftware/api-definition) for Remède.
-
+- Synonyms and antonyms from [thesaurus.com](https://www.thesaurus.com)<sup>NO LICENSE SEPCIFIED</sup>
+- Conjugations from [???]()
 
 **Wordlist and IPAs credits**
 
