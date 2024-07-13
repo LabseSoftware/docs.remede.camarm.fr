@@ -41,7 +41,7 @@ The database situated at `data/remede.db` has been generated successfully, and y
 ## Troubleshooting
 
 A generation is very long ! Sometimes it crashes or freeze... The `generate.py` script handle crashes (or in cas of freeze, the KeyboardInterrupt that you can trigger by pressing <kbd>ctrl-c</kbd> in your terminal to end the process) and saves its progression:
-- `data/remede.save.db`; a save of the database
+- `data/remede.db`; the database, not fully generated
 - `data/missing-wordlist.txt`; the list of words that should have been added
 
 To **resume the generation**, execute
