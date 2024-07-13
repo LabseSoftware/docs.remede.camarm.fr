@@ -14,7 +14,7 @@ The `data` folder is destined to the linguistics resources used by Remède.
 
 - Folder `fr/`
   - `words.txt`: List of ~1 000 000 words, semi separated
-  - `data/ipa.json`: For a key 'word', returns his IPA
+  - `ipa.json`: For a key 'word', returns his IPA
     - Generated from `data/IPA.txt`: a text file of format `[word]\t[ipa]` by `scripts/pre_generate_ressources.py`
 - The sames resources, for each locale are situated in the folders `en` ect...
 
