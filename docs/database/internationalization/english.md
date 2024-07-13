@@ -23,3 +23,11 @@ But some resources changes:
 - `data/fr/IPA.txt` is `data/en/IPA.txt` and the generated resources from this file are
   - `data/fr/words.txt` is `data/en/words.txt`
   - `data/fr/ipa.json` is `data/en/ipa.json`
+
+Also, it uses the english version of [api-definition](/docs/database/building/about.md).
+
+To start an english generation, just run
+
+```shell
+python3 scripts/generate.en.py
+```
