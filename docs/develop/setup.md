@@ -66,6 +66,8 @@ To fetch the latest database, you can use `curl` or `wget` as you prefer...
 {: .warning }
 > Execute these commands at project root.
 
+If you want to serve API, you will need `data/remede.db`, `data/remede.legacy.db` and `data/remede.en.db`. You can create empty files (to prevent errors) or download them as following, using the variants query parameters `remede.legacy`, `remede.en`.
+
 - With `curl`
 ```shell
 curl -o data/remede.db https://api-remede.camarm.fr/download?variant=remede
