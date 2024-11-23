@@ -14,11 +14,11 @@ Remède creates its own base of french words, synonyms, antonyms with extern ser
 
 ## French database credits
 
-- Definitions, examples and etymologies by the [french Wiktionary](https://fr.wiktionary.org/wiki/Wiktionnaire:Page_d%E2%80%99accueil)<sup>[CC BY-SA 3.0 Deed](https://fr.wiktionary.org/wiki/Wiktionnaire:Licence)</sup>, with the API wrapper made by [Frederic Gainza](https://api-definition.fgainza.fr/)<sup>[GPL 3.0](https://github.com/FredGainza/api-definition/blob/main/LICENSE)</sup>, modified by [Labse Software](https://github.com/LabseSoftware/api-definition) for Remède.
+- Definitions, examples, etymologies and pronunciations by the [french Wiktionary](https://fr.wiktionary.org/wiki/Wiktionnaire:Page_d%E2%80%99accueil)<sup>[CC BY-SA 3.0 Deed](https://fr.wiktionary.org/wiki/Wiktionnaire:Licence)</sup>, with the API wrapper made by [Frederic Gainza](https://api-definition.fgainza.fr/)<sup>[GPL 3.0](https://github.com/FredGainza/api-definition/blob/main/LICENSE)</sup>, modified by [Labse Software](https://github.com/LabseSoftware/api-definition) for Remède.
 - Synonyms from [synonymo.fr](http://www.synonymo.fr)
 - Antonyms from [antonyme.org](http://www.antonyme.org)
 - Conjugations from [conjuguons.fr](http://www.conjuguons.fr)
-- Rhymes dictionary is made with data from [Open Lexicon](http://www.lexique.org/?page_id=91)<sup>[CC BY-SA 4.0 Deed](https://github.com/chrplr/openlexicon/blob/master/LICENSE.txt)</sup>, parsed by the [Drime](https://a3nm.net/git/drime/files.html)<sup>[GPLv3](https://a3nm.net/git/drime/file/COPYING.html)</sup> project to be added to Remède database.
+- Rimes dictionary is made with data from [Open Lexicon](http://www.lexique.org/?page_id=91)<sup>[CC BY-SA 4.0 Deed](https://github.com/chrplr/openlexicon/blob/master/LICENSE.txt)</sup>, parsed by the [Drime](https://a3nm.net/git/drime/files.html)<sup>[GPLv3](https://a3nm.net/git/drime/file/COPYING.html)</sup> project to be added to Remède database.
     - Used data: `syllables count`, `elidable` and `femnine`
 
 **Wordlist and IPAs credits**
@@ -31,11 +31,10 @@ Remède creates its own base of french words, synonyms, antonyms with extern ser
 
 ## English database credits
 
-_English database is not available yet_
-
-- Definitions, examples and etymologies by the [english Wiktionary](https://en.wiktionary.org)<sup>[CC BY-SA 3.0 Deed](https://fr.wiktionary.org/wiki/Wiktionnaire:Licence)</sup>, with the API wrapper made by [Frederic Gainza](https://api-definition.fgainza.fr/)<sup>[GPL 3.0](https://github.com/FredGainza/api-definition/blob/main/LICENSE)</sup>, modified by [Labse Software](https://github.com/LabseSoftware/api-definition) for Remède.
+- Definitions, examples, etymologies and pronunciations by the [english Wiktionary](https://en.wiktionary.org)<sup>[CC BY-SA 3.0 Deed](https://fr.wiktionary.org/wiki/Wiktionnaire:Licence)</sup>, with the API wrapper made by [Frederic Gainza](https://api-definition.fgainza.fr/)<sup>[GPL 3.0](https://github.com/FredGainza/api-definition/blob/main/LICENSE)</sup>, modified by [Labse Software](https://github.com/LabseSoftware/api-definition) for Remède.
 - Synonyms and antonyms from [thesaurus.com](https://www.thesaurus.com)<sup>NO LICENSE SEPCIFIED</sup>
-- Conjugations from [???]()
+- Conjugations from [MlConjug3](https://github.com/Ars-Linguistica/mlconjug3)<sup>[MIT](https://github.com/Ars-Linguistica/mlconjug3/blob/master/LICENSE)</sup>
+- Rimes didn't require more data than the preivous sources, and the wordlists / IPA.
 
 **Wordlist and IPAs credits**
 
